@@ -12,3 +12,6 @@ advanced programming in unix environment
 1. Time values
 1. System calls and library function
 
+
+Q:
+1. buffered I/O vs unbuffered I/O
