@@ -12,6 +12,9 @@ advanced programming in unix environment
 1. Time values
 1. System calls and library function
 
+Program
+an executable file residing on disk in a directory
+
 
 Q:
 1. buffered I/O vs unbuffered I/O

@@ -1,4 +1,4 @@
-#include  "apue.h"
+#include  "../header/apue.h"
 #include <dirent.h>
 
 int main(int argc, const char** argv)
@@ -7,7 +7,7 @@ int main(int argc, const char** argv)
     struct dirent *dirp;
 
     if (argc != 2)
-        err_quit("usage: ls directory_name");
+        err_quit("usage: %s directory_name", argv[0]);
     if ((dp = opendir(argv[1])) == NULL)
         err_sys("can't open %s", argv[1]);
     while((dirp = readdir(dp)) != NULL)

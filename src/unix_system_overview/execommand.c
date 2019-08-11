@@ -1,4 +1,4 @@
-#include "apue.h"
+#include "../header/apue.h"
 #include  <sys/wait.h>
 
 int main(int argc, const char** argv)
