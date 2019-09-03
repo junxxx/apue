@@ -15,6 +15,7 @@ advanced programming in unix environment
 Program
 an executable file residing on disk in a directory
 
+[Process Table](http://www.ece.utep.edu/research/webfuzzy/docs/kk-thesis/kk-thesis-html/node28.html)
 
 Q:
 1. buffered I/O vs unbuffered I/O
