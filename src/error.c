@@ -46,6 +46,37 @@ err_cont(int error, const char *fmt, ...)
 }
 
 /**
+ * Fatal error unrelated to a system call.
+ * Error code passed as explict parameter.
+ * Print a message and terminate.
+ */
+void
+err_exit(int error, const char *fmt, ...)
+{
+    va_list ap;
+    va_start(ap, fmt);
+    err_doit(1, error, fmt, ap);
+    va_end(ap);
+	exit(1);
+}
+
+/**
+ * Fatal error unrelated to a system call.
+ * Print a message, dump core, and terminate.
+ */
+void
+err_dump(const char *fmt, ...)
+{
+    va_list ap;
+    va_start(ap, fmt);
+    err_doit(1, errno, fmt, ap);
+    va_end(ap);
+	abort();		/* dump core and terminate */
+	exit(1);		/* shouldn't get here */
+}
+
+
+/**
  * Nonfatal error unrelated to a system call.
  * Print a message and return.
  */
