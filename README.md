@@ -23,3 +23,20 @@ Q:
 1. buffered I/O vs unbuffered I/O
     unbuffered I/O, each function invokes a system call into the kernel.
 
+## Files and Directories
+File types
+1. Regular File.
+1. Directory file.
+1. Block special file.  A type of file providing buffered I/O access in fixed-size units to devices such as disk drives.
+1. Character special file.
+1. FIFO.
+1. Socket. 
+1. Symbolic link. A type of file that points to another file.
+
+```
+ls -l   check the last-modification times
+ls -lu  check the last-access times
+ls -lc  check the changed-status times
+```
+
+
