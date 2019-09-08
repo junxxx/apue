@@ -39,4 +39,11 @@ ls -lu  check the last-access times
 ls -lc  check the changed-status times
 ```
 
+## Environment List
+Environment list. global variable ```environ```
+[Memory Layout of a C Program](https://www.geeksforgeeks.org/memory-layout-of-c-program/)
+```
+size(1) #reports the sizes (in bytes) of the text,data, and bss segment
+```
+
 
