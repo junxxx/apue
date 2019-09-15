@@ -1,4 +1,4 @@
-#include  "./header/apue.h"
+#include  "../header/apue.h"
 #include  <errno.h>  /* for definition of errno*/
 #include  <stdarg.h> /* ISO C variable aruments */
 

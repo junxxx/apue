@@ -45,5 +45,7 @@ Environment list. global variable ```environ```
 ```
 size(1) #reports the sizes (in bytes) of the text,data, and bss segment
 ```
+Process
+Thread
 
 
